@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+.Python
+env/
+venv/
+*.env
+.project
+.settings
+.vscode
+.idea/
+
+# macOS
+.DS_Store
+
+# Models
+*.pth
+*.pt
+output/
