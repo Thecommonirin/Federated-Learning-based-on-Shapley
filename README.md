@@ -58,18 +58,18 @@ Please refer to the `README.md` file within each directory for specific instruct
 If you use this work, please cite the relevant papers:
 
 ```
-@article{piFL2024,
-  title={πFL: Private, atomic, incentive mechanism for federated learning based on blockchain},
-  author={...},
-  journal={Blockchain: Research and Applications},
-  year={2024},
-  publisher={Elsevier}
-}
-
-@inproceedings{ghorbani2020distributional,
-  title={A Distributional Framework for Data Valuation},
-  author={Ghorbani, Amirata and Kim, Michael P. and Zou, James},
-  booktitle={International Conference on Machine Learning},
-  year={2020}
+@article{CHEN2025100271,
+title = {πFL: Private, atomic, incentive mechanism for federated learning based on blockchain},
+journal = {Blockchain: Research and Applications},
+volume = {6},
+number = {2},
+pages = {100271},
+year = {2025},
+issn = {2096-7209},
+doi = {https://doi.org/10.1016/j.bcra.2024.100271},
+url = {https://www.sciencedirect.com/science/article/pii/S2096720924000848},
+author = {Kejia Chen and Jiawen Zhang and Xuanming Liu and Zunlei Feng and Xiaohu Yang},
+keywords = {Federated learning, Incentive mechanism, Smart contract, Multi-party computation},
+abstract = {Federated learning (FL) is predicated on the provision of high-quality data by multiple clients, which is then used to train global models. A plethora of incentive mechanism studies have been conducted with the objective of promoting the provision of high-quality data by clients. These studies have focused on the distribution of benefits to clients. However, the incentives of federated learning are transactional in nature, and the issue of the atomicity of transactions has not been addressed. Furthermore, the data quality of individual clients participating in training varies, and they may participate negatively in training out of privacy leakage concerns. Consequently, we propose an inaugural atomistic incentive scheme with privacy preservation in the FL setting: πFL (privacy, atomic, incentive). This scheme establishes a more dependable training environment based on Shapley valuation, secure multi-party computation, and smart contracts. Consequently, it ensures that each client's contribution can be accurately measured and appropriately rewarded, improves the accuracy and efficiency of model training, and enhances the sustainability and reliability of the FL system. The efficacy of this mechanism has been demonstrated through comprehensive experimental analysis. It is evident that this mechanism not only protects the privacy of trainers and provides atomic training rewards but also improves the model performance of FL, with an accuracy improvement of at least 8%.}
 }
 ```
