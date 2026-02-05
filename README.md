@@ -1,4 +1,4 @@
-# Federated Learning Data Valuation
+# πFL: Private, atomic, incentive mechanism for federated learning based on blockchain
 
 This repository combines two main projects focused on data valuation in the context of Federated Learning, with a strong emphasis on using Shapley values to create fair and robust incentive mechanisms.
 
